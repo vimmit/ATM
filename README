@@ -1,9 +1,14 @@
 # ATMExercise
 Simple React ATM
 
-It is an ATM machine application made using React components. I started with basic HTML code which had a number input to add deposit and a label to show account balance. 
-Then 
+It is an ATM machine application made using React components. We need to know whether the cash is being withdrawn or deposited. If its being withdrawn, we need to check with the bank that there are sufficient funds to cover it. 
+This application has a user interface to deposit or withdraw money from ATM. It has two web components - one is going to keep track of the Bank, keeps track of total amount of money you have got and the other is ATM. 
+We are going to keep track of the state - is it a deposit or not via useState. We synchronize between these 2 components to understand what state each is in. 
 
+I started with basic HTML code which had a number input to add deposit, a label to show account balance and a submit button to submit the deposit. It had 2 callback functions -
+one called on the change in the input, whenever user enters a value for deposit and another when user clicks submit button. It had global variables to maintain the account balance
+and the current value entered by the user. There was issue with the architecture of this code. It had global variables. There were functions that were detached from the element
+that needs them. So, I implemented this in React with web components.
 
 MIT License
 
