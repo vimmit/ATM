@@ -1,5 +1,5 @@
 # ATMExercise
-## [Simple React ATM] (https://vimmit.github.io/ATM/)
+[Simple React ATM] (https://vimmit.github.io/ATM/)
 
 It is an ATM machine application made using React components. We need to know whether the cash is being withdrawn or deposited. If its being withdrawn, we need to check with the bank that there are sufficient funds to cover it. 
 This application has a user interface to deposit or withdraw money from ATM. It has two web components - one is going to keep track of the Bank, keeps track of total amount of money you have got and the other is ATM. 
